@@ -6,8 +6,8 @@ import { DiamondsModule } from './diamonds/diamonds.module';
 import { HealthController } from './health/health.controller';
 
 @Module({
-  imports: [TerminusModule,DiamondsModule],
+  imports: [TerminusModule, DiamondsModule],
   controllers: [AppController, HealthController],
   providers: [AppService],
 })
-export class AppModule {}
+export class AppModule { }
